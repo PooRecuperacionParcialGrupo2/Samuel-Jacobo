@@ -8,6 +8,9 @@ package Tipo2;
  *
  * @author Usuario
  */
+
+
+
 public class Pelicula {
-    
+    //dfasdaisjdoiasdiosadiasdihadsioassadasoioijadsf
 }
