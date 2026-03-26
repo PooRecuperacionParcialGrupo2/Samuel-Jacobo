@@ -1,12 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package modelo;
 
 /**
  *
- * @author Jacobo Rico y Samuel Cardenas
+ * @authors Jacobo Rico y Samuel Cardenas
  */
 
 import java.util.ArrayList;

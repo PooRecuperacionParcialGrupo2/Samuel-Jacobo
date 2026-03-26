@@ -29,6 +29,4 @@ public class Pelicula extends ContenidoMultimedia {
         System.out.println("Reproduciendo en calidad " + calidad + " con subtitulos en " + idiomaSubtitulos);
     }
     
-    
-    
 }
