@@ -10,8 +10,8 @@ package modelo;
  */
 
 import java.util.ArrayList;
-import Pelicula;
-import Podcast;
+import modelo.Pelicula;
+import modelo.Podcast;
 
 public class AppStreaming {
     
@@ -70,7 +70,11 @@ public class AppStreaming {
         
         System.out.println("=== CONFIGURACION PELICULAS ===");
         
-        
+        for (Pelicula p: metodos.arregloPelicula){
+            p.configurarVisualizacion();
+            p.configurarVisualizacion("4K");
+            p.configurarVisualizacion("1080p", "Español");
+        }
         
     }
     
