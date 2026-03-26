@@ -9,6 +9,10 @@ package Tipo2;
  * @author Usuario
  */
 public class ContenidoMultimedia {
+    
+    String nombre;
+    int anioPublicacion;
+    int duracionMinutos;
 
     /**
      * @param args the command line arguments
