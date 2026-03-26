@@ -1,5 +1,8 @@
 package modelo;
 
+import java.util.ArrayList;
+import modelo.ContenidoMultimedia;
+
 public class Podcast extends ContenidoMultimedia {
     
     private String anfitrion;
@@ -13,5 +16,5 @@ public class Podcast extends ContenidoMultimedia {
     public void iniciarReproduccion() {
         System.out.println("Conectando al servidor de audio y preparando el episodio del podcast...");
     }
-    
+     
 }

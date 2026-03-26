@@ -1,5 +1,8 @@
 package modelo;
 
+import modelo.ContenidoMultimedia;
+import java.util.ArrayList;
+
 public class Pelicula extends ContenidoMultimedia {
     
     private String director;
@@ -25,5 +28,7 @@ public class Pelicula extends ContenidoMultimedia {
     public void configurarVisualizacion(String calidad, String idiomaSubtitulos) {
         System.out.println("Reproduciendo en calidad " + calidad + " con subtitulos en " + idiomaSubtitulos);
     }
+    
+    
     
 }
